@@ -123,41 +123,69 @@ p{
     }
     #section__2 .container__2 article small{
         color: #de2129;
-        margin: 1.5rem;
+        margin: 1rem;
     }
     #section__2 .container__2 article p{
         font-size: 1.3rem;
         line-height: 1.7;
         margin-bottom: -0.6rem;
     }
-
-    #section__3{
-        height: 100%;
+    
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         margin-bottom: 10rem;
-        border: 1px solid pink;
     }
-    .section__3 #container #row_1 #col_1{
-        background-image: url("../images/left_bvm.png");
-        background-size: 100%;
-        background-position: center;
+    #article1{
+        background-image: url('../images/left_bvm.png');
+        background-size: 70% 70%;
         background-repeat: no-repeat;
+        background-position: left top;
+        padding-top: rem;
+    }
+    #article1 p{
+        background: rgb(255,250,250);
+        width: 86%;
+        position: relative;
+        top: 20px;
+        text-align: justify;
+        padding: 3rem;
+        height: 40rem;
+    }
+    #article2 p{
+        background: rgb(255,250,250);
+        text-align: justify;
+        padding: 3rem;
+        height: 40rem;
+        margin-top: 2.1rem;
+    }
+    #article3{
+        background-image: url('../images/dots.png');
+        background-size: 70% 300px;
+        background-repeat: no-repeat;
+        background-position: right top;
         
     }
-    .section__3 #container #row_1 #col_3{
-        background-image: url("../images/dots.png");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    
+    #article3 p{
+        background: rgb(255,250,250);
+        width: 86%;
+        position: relative;
+        top: 16px;
+        text-align: justify;
+        padding: 3rem;
+        height: 40rem;
+        z-index: 500px;
     }
-    .section__3 #container .card{
-       background-color: rgb(212, 180, 186);
-    }
-    .section__3 .card-body a{
-        color: #de2129;
+    .content article a{
         text-decoration: none;
-        cursor: pointer;
+        color: #e7332b;
     }
+
+/*============================*/
+    
     #container #row_2 .card{
         border-width: 0rem;
         margin-top: 0.5rem;
@@ -219,14 +247,13 @@ p{
 
 @media screen and (max-width:768px){
     .section__1{
-        height: 90vh;
+        height: 70vh;
     }
     .section__1 article p{
         margin:auto;
         width: 100%;
         font-size: 1rem;
         text-align: center;
-        border: 1px solid red;
         line-height: 1.7rem;
         opacity: 0.6;
         font-weight: 400;
@@ -250,7 +277,6 @@ p{
         justify-content: center;
         text-align: center;
         align-items: center;
-        
 
     }
 
@@ -261,6 +287,30 @@ p{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+    #article1{
+        background-image: url('');
+        background-size: 70% 70%;
+        background-repeat: no-repeat;
+        background-position: left top
+    }
+    #article3{
+        background-image: url('');
+        background-size: 70% 300px;
+        background-repeat: no-repeat;
+        background-position: right top;
+        
+    }
+    #article1 p, #article2 p, #article3 p{
+        height: 32rem;
     }
 }
 
