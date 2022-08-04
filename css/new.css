@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-.navbar-nav li a{
-    color: #fff;
+    background-color: rgb(249, 229, 233);
+    
 }
 
 .navbar{
-    background-color: midnightblue;
+    color: #000;
+    background: #fff;
+    height: 60px;
+    padding: 0rem 3rem;
+    border-bottom: 2px solid #000;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*
 
 
 tcc{
@@ -27,7 +30,7 @@ tcc{
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-:root{ /*--variable colors declaration--*/
+:root{ /*--variable colors declaration--
     --background:#191970;
     --border-color:#ff8c00;
     --text-color:#000;
@@ -167,7 +170,7 @@ fa-bars{
     color: #fff;
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY
 
 @media screen and (max-width:960px){
     .navbar_container{
@@ -213,7 +216,7 @@ fa-bars{
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        /*background: #fff;*/
+        /*background: #fff;
     }
 
     .navabar_items{
@@ -266,7 +269,7 @@ fa-bars{
     }
 }
 
-/*---section-*/
+/*---section-
 .bodi{
     background-color: #141414;
 }
@@ -359,7 +362,7 @@ height: 100%;
 width: 100%;
 }
 
-/*---MOBILE RESPONSIVE--*/
+/*---MOBILE RESPONSIVE--
 
 @media screen and (max-width:768px){
     .main_container{
@@ -413,7 +416,7 @@ width: 100%;
     }
 }
 
-/*-------FOOTER-----*/
+/*-------FOOTER-----
 
 .footer_container{
     background-color: gray;
@@ -475,7 +478,7 @@ f.ooter_link_items a:hover{
     transition: 0.3s ease-out;
 }
 
-/*---SOCIAL ICONS-*/
+/*---SOCIAL ICONS-
 .social_icon_link{
     font-size: 24px;
     color: #fff;
@@ -516,7 +519,7 @@ f.ooter_link_items a:hover{
     color:#141414;
 }
 
-/*--RESPONSIVE--*/
+/*--RESPONSIVE--
 @media screen and(max-width:820px) {
     .footer_links{
         padding-top: 2rem;
