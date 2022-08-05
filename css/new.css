@@ -3,22 +3,142 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(249, 229, 233);
     
+    font-family: ;
 }
 
 .navbar{
     color: #000;
-    background: #fff;
-    height: 60px;
-    padding: 0rem 3rem;
+    background: #fffdf5;
+    height: 90px;
+    width: 100%;
+    padding: 3rem 2rem;
     border-bottom: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    z-index: 2000px;
+}
+.navbar .logo a img{
+    position: absolute;
+    top: 25px;
+    background: #fffdf5;
+    color: #fffdf5;
+    width: 210px;
+}
+.navbar .navlinks ul{
+    position: absolute;
+    top: 10px;
+    right: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 0.3rem;
+    background: #fffdf5;
+    border: 1px solid red;
+    z-index: 700px;
+}
+.navbar .navlinks ul li{
+    list-style-type: none;
+    margin: 0rem 1rem;
+    background: #fffdf5;
+}
+.navbar .navlinks ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #585757;
+    background: #fffdf5;
+    text-align: start;
+    font-size: 1.2rem;
+}
+.navbar .enroll .btn-danger{
+    border-radius: 2rem;
+    height: 2.7rem;
+    width: 180px;
+    background-color: #e7332b;
+    color: #fff;
+}
+.navbar .enroll .btn-danger a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #e7332b;
+    color: #fff;
+}
+.navbar .enroll #hand_img{
+    border-radius: 50%;
+    border: 0.6rem solid #e7332b;
+    position: absolute;
+    top: 10px;
+    width: 72px;
+    background-color: #e7332b;
+    right: 11rem;
+    z-index: 500px;
+    isolation: isolate;
 }
 
 main{
     margin: auto;
+    background: #fffdf5;
+    padding-top: 10rem;
+}
+#section_1 .container .row .col_1{
+    width: 500px !important;
+}
+#section_1 .container .row .col-sm #lady_img{
+    width: 320px;
+    height: 320px;
+    margin-top: 9rem;
+}
+#section_1 #container1 #row_1 .card .card-body #girl_img{
+    border-width: 0rem;
+}
+#section_1 #container1 #row_1 .col-sm article{
+    text-align: center;
+    font-family: Poppins;
+}
+#section_1 .container .row #col_3 #male{
+    width: 300px;
+    height: 350px;
+    margin-top: 7rem;
+}
+#section_1 .container .row #col_2 section{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 13rem;
+}
+#section_1 .container .row #col_2 section button{
+    border-radius: 2rem;
+    height: 2.7rem;
+    width: 180px;
+    background-color: #e7332b;
+    color: #fff;
+    border-width: 0rem;
+    margin-left: 5rem;
+}
+#section_1 .container .row #col_2 section button a{
+    background-color: #e7332b;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1rem;
+}
+#section_1 .container.row #col_2 #wire1{
+    display: flex;
+    flex-direction: column;
+}
+#maleface{
+    /*position: relative;
+    /*top: -60px;
+    left: 5px;
+    padding-right: 2rem;*/
 }
 
+/*#section_1 .container-fluid .row .col-sm .card .card-header.card-body .card-footer{
+   background: #fffdf5;
+}*/
 
 
 /*
