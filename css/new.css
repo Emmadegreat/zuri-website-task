@@ -132,7 +132,7 @@ main{
 #section_2 #container2 #row_2{
     padding: 0.8rem 0rem;
 }
-
+/*============section 3============*/
 #section_3 #row_3{
     padding: 1.3rem 0rem;
 }
@@ -164,6 +164,9 @@ main{
 }
 
 /*====================section 4============*/
+#section_4{
+    margin: 10rem 0rem;
+}
 #section_4 #container4 #row_4 .col-sm .card{
     border-radius: 18px;
     padding: 1.4rem;
@@ -191,6 +194,115 @@ main{
     position: absolute;
     height: 100px;
     margin-left: 12rem;
+}
+/*============section 5============*/
+#section_5{
+    background: #e7332b;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+#section_5 #container5 #col_1{
+    margin-left: 1.5rem;
+}
+#section_5 #row_5 .col-sm article h3{
+    text-align: start;
+    font-weight: 600;
+    line-height: 52px;
+    font-family: Poppins;
+    letter-spacing: 0.3752px;
+    font-size: 40px;
+    padding: 0rem 1.5rem 1.5rem 0rem;
+}
+#section_3  #row_5 #col_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+#section_5 #row_5 .col-sm #section5__image{
+    width: 500x;
+    height: 500px;
+}
+#section_5 #row_5 .col-sm article h5{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+#section_5 #row_5 .col-sm #article__2 p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem 1.6rem 1rem 0rem;
+    text-align: start;
+}
+#section_5 #row_5 .col-sm .button{
+    border-radius: 2rem;
+    height: 2.7rem;
+    width: 150px;
+    color: #e7332b;
+    background: #fff;
+    border-width: 0rem;
+}
+#section_5 #row_5 .col-sm .button a{
+    color: #e7332b;
+    background: #fff;
+    text-decoration: none;
+    line-height: 1rem;
+    font-size: 1.2rem;
+}
+.grid__button{
+    margin: 1.7rem 0rem;
+    display: flex;
+    width:440px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.btn-primary{
+    margin-right: 2rem;
+    width: 210px;
+    height: 60px;
+    color: #fff;
+    background: #e7332b !important;
+    padding-right: 3rem !important;
+    border: 2px solid#fff !important;
+    border-radius: 30rem !important;
+    font-size: 1.2rem !important;
+}
+.btn-primary img{
+    width: 35px !important;
+    height: 35px;
+    margin-left: -0.5rem;
+
+}
+
+/*==============section 6===========*/
+#section_6{
+    margin: auto;
+    padding: 1rem 0rem;
+}
+#section_6 #row_6 .col-sm article h5{
+    color: #e7332b;
+    font-weight: 400;
+    margin-bottom: -0.1rem;
+    font-size: 1.5rem;
+}
+#section_6 #row_6 .col-sm article p{
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 2.2rem;
+}
+#section_6 #container6 #col_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#section_6 #container6 #col_2 img{
+    width: 150px;
+    height: 150px;
+    margin-top: -4rem;
 }
 
 
