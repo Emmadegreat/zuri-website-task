@@ -305,6 +305,86 @@ main{
     margin-top: -4rem;
 }
 
+/*===================section 7============*/
+#section_7{
+    margin: 1rem 0rem;
+    font-family: sans-serif;
+}
+#section_7 #container7 .col-sm .card{
+    border-radius: 22px;
+    padding: 1.4rem;
+    margin: 0.4rem;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+}
+
+#section_7 #container7 .card .card-body h2{
+    font-size: 1.3rem; 
+    font-weight: 700;
+}
+#section_7 .card .card-body article p{
+    font-size: 1rem;
+    line-height: 22.4px; 
+    color: #1b1a20;
+    font-family: Poppins;
+    text-align: justify;
+}
+#section_7 .card .card-body section{
+    padding: 0.7rem 0rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+}
+#section_7 .card .card-body section img{
+    margin: 0.3rem;
+}
+#section_7 #container7 .row .btn-info-class{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#section_7 #container7 .row .btn-info-class .btn-info{
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    background: #e7332b;
+    border-width: 0rem;
+    border-radius: 10rem !important;
+}
+#section_7 #container7 .row .btn-info-class .btn-info a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    background: #e7332b;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #maleface{
     /*position: relative;
