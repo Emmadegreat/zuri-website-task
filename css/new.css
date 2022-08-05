@@ -162,6 +162,38 @@ main{
     height: 160px;
     padding-left: rem;
 }
+
+/*====================section 4============*/
+#section_4 #container4 #row_4 .col-sm .card{
+    border-radius: 18px;
+    padding: 1.4rem;
+    margin: 1rem;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+}
+#section_4 #container4 #row_4 .col-sm .card:hover{
+    transform: translateY(20px);
+}
+#section_4 .card .card-body h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+#section_4 .card .card-body h2{
+    font-size: 2.5rem; 
+}
+#section_4 .card .card-body p{
+    font-size: 1.1rem; 
+    color: #1b1a20;
+}
+#section_4 .card .curve{
+    width: 100px;
+    top: -2px;
+    right: -2px;
+    position: absolute;
+    height: 100px;
+    margin-left: 12rem;
+}
+
+
 #maleface{
     /*position: relative;
     /*top: -60px;
