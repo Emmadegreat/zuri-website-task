@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+}
+body{
+    background: #fffdf5;
 }
 
 .navbar{
@@ -480,6 +482,11 @@ main{
     right: 20px;
     top: 550px;
 }
+#section_11 .container .card .circle__img{
+    position: absolute;
+    top: 670px;
+    left: 430px;
+}
 /*======================section 12============*/
 #section12{
     margin: 3rem 0rem;
@@ -487,8 +494,9 @@ main{
 #section12 .container .card{
     background: #e7332b;
     padding: 1rem;
-    height: 25rem;
+    height:  30rem;
     display: flex;
+    border-radius: 40px;
     justify-content: center;
     text-align: center;
 }
@@ -530,18 +538,44 @@ main{
 }
 #section12 .card .img2{
     position: absolute;
-    top: 310px;
-    right: 5px;
+    top: 360px;
+    right: 0px;
 }
 #section12 .card .img3{
     position: absolute;
-    top: 290px;
-    left: 0px;
+    top: 340px;
+    left: -40px;
 }
 #section12 .card .img4{
     position: absolute;
     top: 0px;
     right: 0px;
+}
+/*=========================footer===================*/
+.footer__head{
+    height: 15rem;
+    background: #fffdf5;
+    width: 100%;
+}
+.footer__head #footer__1 img{
+    padding-top: 2.5rem;
+    width: 230px;
+}
+
+#footer__4 ul li{
+    display: inline-block;
+    line-height: 2;
+    padding: 0rem 0.5rem;
+    text-align: justify;
+}
+#footer__4 ul li a{
+    font-size: 2.5rem;
+    color: #e7332b;
+}
+#footer_bottom_row .col-sm{
+    margin: 1em 0rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 @media screen and (max-width:968px){
