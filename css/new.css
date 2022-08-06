@@ -475,7 +475,14 @@ main{
 #section_11 .container .col-sm .card .card-body li a{
     color: #fff;
 }
-
+#section_11 .container .card img{
+    width: 140px !important;
+    height: 120px !important;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 550px;
+}
 
 
 
