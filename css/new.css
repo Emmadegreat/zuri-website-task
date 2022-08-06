@@ -544,8 +544,8 @@ main{
 }
 #section12 .card .img4{
     position: absolute;
-    top: 290px;
-    left: 0px;
+    top: 0px;
+    right: 0px;
 }
 
 #maleface{
