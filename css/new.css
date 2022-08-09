@@ -323,18 +323,15 @@ main{
     position: absolute;
     height: 100px;
     margin-left: 12rem;
-}*/
+}
 /*============section 5============*/
 #section_5{
     background: #e7332b;
     color: #fff;
-    padding: 2rem;
-    width: 100%;
-}
-#section_5 #container5 #col_1{
-    
-}
-#section_5 #row_5 .col-sm article h3{
+    padding: 1.3rem 1.6rem;
+}    
+
+#section_5 .row .col-xl-6 article h3{
     text-align: start;
     font-weight: 600;
     line-height: 52px;
@@ -343,38 +340,32 @@ main{
     font-size: 40px;
     padding: 0rem 1.5rem 1.5rem 0rem;
 }
-#section_3  #row_5 #col_2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
+
+#section_5 .row .col-xl-6 #section5__image{
+    width: 100%;
+    height: auto;
+    padding-right: 4rem;
 }
-#section_5 #row_5 .col-sm #section5__image{
-    width: 600px;
-    height: 600px;
-}
-#section_5 #row_5 .col-sm article h5{
+#section_5 .row .col-xl-6 article h5{
     font-weight: 400;
     font-size: 1.3rem;
 }
-#section_5 .col-sm #wire__image{
+#section_5 .col-xl-6 #wire__image{
     width:70px;
     height:70px;
     margin-left:6rem;
 }
-#section_5 #row_5 .col-sm #article__2 p{
+#section_5 .col-xl-6 .article2 p{
     font-weight: 400;
-    font-size: 1.2rem;
-    padding: 1rem 1.6rem 1rem 0rem;
+    font-size: 1.4rem;
+    padding: 1rem 4rem 1rem 0rem;
     text-align: start;
 }
-#section_5 #row_5 #dot__img{
-    width: 170px;
-    height: 170px;
-    
-    }
-#section_5 #row_5 .col-sm .button{
+#section_5 .row #dot__img{
+    width: 130px;
+    height: 130px;
+}
+#section_5 .row .col-xl-6 #enroll{
     border-radius: 2rem;
     height: 2.7rem;
     width: 150px;
@@ -382,40 +373,63 @@ main{
     background: #fff;
     border-width: 0rem;
 }
-#section_5 #row_5 .col-sm .button a{
+#section_5 .row .col-xl-6 #enroll a{
     color: #e7332b;
     background: #fff;
     text-decoration: none;
     line-height: 1rem;
     font-size: 1.2rem;
 }
-.grid__button{
+#section_5 .linkbtn{
+    margin: 2rem 0rem 0.5rem 0rem;
+}
+#section_5 .linkbtn .me{
+    margin: 1.2rem;
+    width: 200px;
+    background-color: #e7332b;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    border: 2px solid #fff;
+}
+#section_5 .linkbtn .me img{
+    width: 40px;
+    background-color: #e7332b;
+    position: relative;
+    left: -20px;
+}
+/*#section_5 .row .col-xl-6 .grid__button{
     margin: 1.7rem 0rem;
     display: flex;
-    width:440px;
+    width:100%;
     flex-direction: row;
+    background-color: black;
+    border:1px solid green;
     align-items: center;
     justify-content: space-between;
     text-align: center;
 }
-.btn-primary{
+#section_5 .col-xl-6 .me{
+    background: yellow;
+    width: 100%;
+}
+#section .row .col-xl-6 .grid__button .gg{
     margin-right: 2rem;
     width: 210px;
     height: 60px;
-    color: #fff;
-    background: #e7332b !important;
+    color: #000;
+    background-color: #000;
     padding-right: 3rem !important;
     border: 2px solid#fff !important;
     border-radius: 30rem !important;
     font-size: 1.2rem !important;
 }
-.btn-primary img{
-    width: 35px !important;
+#section .row .col-xl-6 .grid__button .btn__2 img{
+    width: 69px !important;
     height: 35px;
     margin-left: -0.5rem;
 
-}
-@media screen and (max-width:1199px) {
+}*/
+/*@media screen and (max-width:1199px) {
     #section_5 .row{
         display: flex;
         flex-direction: column;
@@ -444,7 +458,7 @@ main{
         right: 490px;
     
     }
-}
+}*/
 
 /*==============section 6===========*/
 #section_6{
