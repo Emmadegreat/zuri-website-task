@@ -224,10 +224,10 @@ main{
         margin: auto;
     }
 }
-/*=================section 1=====*/
+/*=================section 2=====*/
 
 #section_2{
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 1.6rem;
 }
 #section_2 .col-lg-4{
     display: flex;
