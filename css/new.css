@@ -80,37 +80,50 @@ body{
 }
 
 main{
-    margin: auto;
     background: #fffdf5;
     padding-top: 10rem;
 }
-/*=================section 1=====*/
-#section_1 .container .row .col_1{
-    width: 500px !important;
+/*===================section 1==============*/
+#section_1{
+    margin-bottom: rem;
 }
-#section_1 .container .row .col-sm #lady_img{
-    width: 320px;
-    height: 320px;
-    margin-top: 9rem;
-}
-#section_1 #container1 #row_1 .card .card-body #girl_img{
-    border-width: 0rem;
-}
-#section_1 #container1 #row_1 .col-sm article{
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 2rem;
+    margin-bottom: 10rem;
     font-family: Poppins;
 }
-#section_1 .container .row #col_3 #male{
-    width: 300px;
-    height: 350px;
-    margin-top: 7rem;
+.wrapper .box #lady__img{
+    width: 300px; 
 }
-#section_1 .container .row #col_2 section{
-    display: flex;
-    justify-content: space-around;
-    padding-right: 13rem;
+.wrapper .box article #p1{
+    color: #e7332b;
+    margin-bottom: 0.1rem;
 }
-#section_1 .container .row #col_2 section button{
+.wrapper .box article h1{
+    font-weight: 700;
+    font-size:3rem;
+}
+.wrapper .box #line__img{
+    margin: 0.2rem 0rem;
+    position: relative;
+    left: 140px;
+    width:10rem;
+}
+.wrapper .box #p2{
+    margin: 2rem;
+    text-align: center;
+    padding: 0.4rem 3.3rem;
+    font-size: 1.1rem;
+}
+.wrapper .box #maleface{
+    width: 50px;
+}
+.wrapper .box button{
     border-radius: 2rem;
     height: 2.7rem;
     width: 180px;
@@ -119,19 +132,124 @@ main{
     border-width: 0rem;
     margin-left: 5rem;
 }
-#section_1 .container .row #col_2 section button a{
+.wrapper .box button a{
     background-color: #e7332b;
     color: #fff;
     text-decoration: none;
     line-height: 1rem;
 }
-#section_1 .container.row #col_2 #wire1{
+.wrapper .box #wire__img{
+    position: relative;
+    top: 5rem;
+    right: 4rem;
+    height: 110px;
+}
+.wrapper .box #male{
+    width: 300px;
+}
+@media screen and (max-width:1199px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0rem 3rem;
+    }
+    .wrapper .box #lady__img{
+        flex-basis: 100%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 100%;
+        width: 600px;
+        
+    }
+    .wrapper .box article #p1{
+    margin-top: 1rem;
+    }
+    .wrapper .box #male{
+    display: none;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) {
+    .wrapper{
+        margin-bottom: 8rem !important;
+    }
+    .wrapper .box #line__img{
+        margin: 0.2rem 0rem;
+        position: relative;
+        left: 20px;
+        width:7rem;
+    }
+    .wrapper .box article h1{
+        font-weight: 600;
+        font-size:2rem;
+        text-align: center;
+    }
+    .wrapper .box #p2{
+        margin: 0.2rem;
+        text-align: center;
+        padding: 1rem 0rem;
+        font-size: 1.1rem;
+    }
+    .wrapper .box #wire__img{
+        position: relative;
+        top: 5rem;
+        right: 4rem;
+        height: 110px;
+    }
+     .wrapper .box button{
+        margin: auto;
+    }
+    .wrapper .box #maleface{
+    margin: 2rem;
+    }
+     
+}
+@media screen and (max-width:495px){
+    .wrapper .box #wire__img{
+        position: relative;
+        top: 50px;
+        right: 10%;
+        height: 110px;
+    }
+    .wrapper .box #maleface{
+        width: 50px;
+        display: none;
+    }
+    .wrapper .box button{
+        margin: auto;
+    }
+}
+/*=================section 1=====*/
+
+#section_2{
+    padding: 0.8rem 1rem;
+}
+#section_2 .col-lg-4{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
 }
-#section_2 #container2 #row_2{
-    padding: 0.8rem 0rem;
+
+#section_2 #row_2 h1{
+    text-align: left;
+    font-size:1.3rem;
+    font-weight: 700; 
 }
+#section_2 #row_2 p{
+    text-align: right;
+    font-size:1.2rem;
+}
+#section_2 .row .col-lg-4 img{
+    width:200px;
+    height:200px;
+}   
+
 /*============section 3============*/
 #section_3 #row_3{
     padding: 1.3rem 0rem;
@@ -169,7 +287,7 @@ main{
 #section_4 #container4 #row_4 .col-sm .card{
     border-radius: 18px;
     padding: 1.4rem;
-    margin: 1rem;
+    margin: 0.4rem;
     box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
 }
 #section_4 #container4 #row_4 .col-sm .card:hover{
@@ -198,11 +316,11 @@ main{
 #section_5{
     background: #e7332b;
     color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding: 2rem;
+    width: 100%;
 }
 #section_5 #container5 #col_1{
-    margin-left: 1.5rem;
+    
 }
 #section_5 #row_5 .col-sm article h3{
     text-align: start;
@@ -221,12 +339,17 @@ main{
     border: 1px solid red;
 }
 #section_5 #row_5 .col-sm #section5__image{
-    width: 500x;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 #section_5 #row_5 .col-sm article h5{
     font-weight: 400;
     font-size: 1.3rem;
+}
+#section_5 .col-sm #wire__image{
+    width:70px;
+    height:70px;
+    margin-left:6rem;
 }
 #section_5 #row_5 .col-sm #article__2 p{
     font-weight: 400;
@@ -234,6 +357,11 @@ main{
     padding: 1rem 1.6rem 1rem 0rem;
     text-align: start;
 }
+#section_5 #row_5 #dot__img{
+    width: 170px;
+    height: 170px;
+    
+    }
 #section_5 #row_5 .col-sm .button{
     border-radius: 2rem;
     height: 2.7rem;
@@ -274,6 +402,36 @@ main{
     height: 35px;
     margin-left: -0.5rem;
 
+}
+@media screen and (max-width:1199px) {
+    #section_5 .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .grid__button{
+        margin: 1.7rem 0rem;
+        display: flex;
+        width:440px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    #section_5 #row_5 .col-sm #section5__image{
+    width: 100%;
+    height: 100%;
+    }
+    #section_5 #row_5 #dot__img{
+        width: 170px;
+        height:170px;
+        position: relative;
+        right: 490px;
+    
+    }
 }
 
 /*==============section 6===========*/
@@ -456,6 +614,10 @@ main{
 /*=================section 11============*/
 #section_11{
     margin: 5rem 0rem;
+    background: #fffdf5;
+}
+#section_11 .col-sm{
+    background: #fffdf5;
 }
 #section_11 #program{
     text-align: center;
@@ -467,6 +629,10 @@ main{
     height: 45rem;
     color: #fff;
     background: #000;
+    box-shadow: #fffdf5;
+}
+#section_11 .container .col-sm .card .card-body{
+    box-shadow: #fffdf5;
 }
 #section_11 .container .col-sm .card .card-body .links{
     list-style-type: none;
@@ -482,10 +648,17 @@ main{
     right: 20px;
     top: 550px;
 }
-#section_11 .container .card .circle__img{
+#section_11 .container .col-sm .circle__img{
     position: absolute;
-    top: 670px;
-    left: 430px;
+    right: 30px;
+    top: 7100px;
+    width: 140px !important;
+    height: 120px !important;
+}
+#section_11 .container .move__img{
+    position: absolute;
+    right: 71.5rem !important;
+    top: 412rem;
 }
 /*======================section 12============*/
 #section12{
@@ -548,7 +721,7 @@ main{
 }
 #section12 .card .img4{
     position: absolute;
-    top: 0px;
+    top: -10px;
     right: 0px;
 }
 /*=========================footer===================*/
@@ -576,6 +749,21 @@ main{
     margin: 1em 0rem;
     font-size: 1rem;
     font-weight: 400;
+}
+
+/*======================media query=====================*/
+@media screen and (max-width:1199px){
+    #section_1 .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #section_1 .col-sm{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:968px){

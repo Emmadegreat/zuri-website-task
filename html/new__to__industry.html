@@ -11,6 +11,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../images/Zuri.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <!--<style>
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        @media screen and (max-width:768px) {
+            .wrapper{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    </style>-->
 </head>
 <body>
     <nav class="navbar fixed-top"> <!--navbar-dark bg-dark-->
@@ -39,62 +58,51 @@
     </nav><!--HEADER ENDS HERE-->
 
     <main>
-        
 
-        <section id="section_1"><!---1st section start-->
-            <div class="container" id="container1"><!---container-fluid-->
-              <div class="row" id="row_1"><!---first row-->
-                <div class="col-sm" id="col_1" style="width: 25%;"><!---column-->
-                    <img src="../images/lady1.jpg" alt="lady" id="lady_img">
-                </div>
-
-                <div class="col-sm" id="col_2">
+        <!--<section id="section_1" class="container-fluid"><!---1st section start-->
+            <section class="wrapper">
+                <section class="box">
+                    <img src="../images/lady1.jpg" alt="lady" id="lady__img">
+                </section>
+                <section class="box" id="box2">
                     <article>
-                        <p style="color: #e7332b;">And now your search has ended...</p>
-                        <h1 style="font-weight: 700;font-size: 3rem;width: 500px;">
+                        <p id="p1">And now your search has ended...</p>
+                        <h1 id="h1">
                             Gain knowledge to help you scale through the tech industry 
                             for free.
                         </h1>
-                        <img src="../images/line.svg" alt="" style="margin: 0.5rem 5rem;width:10rem;">
-                        <p style="margin: 2rem;"s>
-                            A basic introduction to software development and product 
-                            design aimed at complete beginners, which anyone can join
-                        </p>
+                        <img src="../images/line.svg" alt="" id="line__img">
                     </article>
-                    <section>
-                        <img src="https://training.zuri.team/maleface.svg" alt="" id="maleface" style="width: 50px;">
-                        <button><a href="">Enroll Now</a></button>
-                    </section>
-                        <div class="wire1" style="display: flex;flex-direction:column;">
-                            
-                            <img src="../images/section1wire.svg" alt="" style="margin-left:5rem; height: 110px;">
-                        </div>
                     
-                    
-                </div>
-
-                <div class="col-sm" id="col_3" style="width: 25%;">
-                  <img src="../images/male1.jpg" alt="male1" id="male">
-                </div>
-              </div><hr id="hr1">
-            </div>
+                    <p id="p2">
+                        A basic introduction to software development and product 
+                        design aimed at complete beginners, which anyone can join
+                    </p>
+                    <img src="https://training.zuri.team/maleface.svg" alt="maleface" id="maleface">
+                    <button><a href="">Enroll Now</a></button>
+                    <img src="../images/section1wire.svg" alt="wire" id="wire__img">
+                </section>
+                <section class="box">
+                    <img src="../images/male1.jpg" alt="male1" id="male">
+                </section>
+            </section><hr>
         </section><!----1st section end-->
 
         <section id="section_2"><!---2nd section start-->
-            <div class="container" id="container2">
+            <div class="container-fluid" id="container2">
                 <div class="row" id="row_2">
-                    <div class="col-sm" id="">
-                        <h1 style="text-align: left;font-size:1.4rem;font-weight: 700;padding: 3.2rem 0rem;">
+                    <div class="col-lg-4" id="">
+                        <h1>
                             INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN DONATION...
                         </h1>
                     </div>
       
-                    <div class="col-sm" id="">
-                        <img src="/images/ingresive.jpg" alt="" id="page_logo" style="width:200px;height:200px;text-align:center;margin-left:2rem;">
+                    <div class="col-lg-4" id="">
+                        <img src="/images/ingresive.jpg" alt="" id="logo__2">
                     </div>
       
-                    <div class="col-sm" id="">
-                        <p style="text-align: right;font-size:1.55rem">
+                    <div class="col-lg-4" id="">
+                        <p>
                             to help increase the earning power of African youths by providing them with 
                             tech skills, community, tools, resources, and jobs... <a href="https://ingressive.org/i4g-in-2021/" style="color:#43b97f;">Read More</a>
                         </p>
@@ -102,9 +110,9 @@
            
                 </div><hr>
             </div>
-        </section><!----2nd section end--> 
+        </section><!----2nd section end-->
 
-        <section id="section_3"><!--3rd section start-->
+        <section id="section_3"><!--3rd section start--
             <div class="container" id="container3">
                 <div class="row" id="row_3">
                     <div class="col-sm" id="">
@@ -125,12 +133,12 @@
         
                 </div>
             </div>
-        </section><!----3rd section end-->
+        </section><!----3rd section end--
 
-        <section id="section_4"><!---4th section start-->
-            <div class="container" id="container4">
+        <section id="section_4"><!---4th section start--
+            <div class="container-fluid" id="container4">
                 <div class="row" id="row_4">
-                    <div class="col-sm" id="col_1">
+                    <div class="col-md-4" id="col_1">
                         <div class="card"  style="background: #e7332b;color: #fff;">
                             <img src="../images/curve1.png" alt="curve" class="curve">
                             <div class="card-body">
@@ -142,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm" id="col_2">
+                    <div class="col-md-4" id="col_2">
                         <div class="card">
                             <img src="../images/curve.svg" alt="curve" class="curve">
                             <div class="card-body">
@@ -154,7 +162,7 @@
                             </div> 
                         </div>
                     </div>
-                    <div class="col-sm" id="col_3">
+                    <div class="col-md4" id="col_3">
                         <div class="card">
                             <img src="../images/curve3.svg" alt="curve" class="curve">
                             <div class="card-body">
@@ -166,7 +174,7 @@
                             </div>
                         </div>
                     </div>  
-                    <div class="col-sm" id="col_4">
+                    <div class="col-md-4" id="col_4">
                         <div class="card">
                             <img src="../images/curve4.svg" alt="curve" class="curve">
                             <div class="card-body">
@@ -178,7 +186,7 @@
                             </div>
                         </div>
                     </div> 
-                    <div class="col-sm" id="col_5">
+                    <div class="col-md-4" id="col_5">
                         <div class="card">
                             <img src="../images/curve5.svg" alt="curve" class="curve">
                             <div class="card-body">
@@ -190,7 +198,7 @@
                             </div>
                         </div>
                     </div> 
-                    <div class="col-sm" id="col_6">
+                    <div class="col-md4" id="col_6">
                         <div class="card">
                             <img src="../images/curve6.svg" alt="curve" class="curve">
                             <div class="card-body">
@@ -205,14 +213,14 @@
                 </div>
         
             </div>
-        </section><!----4th section end-->
+        </section><!----4th section end--
 
-        <section id="section_5"><!--5th section start-->
-            <div class="container" id="container5">
+        <section id="section_5"><!--5th section start--
+            <div class="container-fluid" id="container5">
                 <div class="row" id="row_5">
                     <div class="col-sm" id="col_1">
                         <div style="text-align: center;">
-                            <img src="../images/section5wire.svg" alt="wire"style="width:70px;height:70px;margin-left:6rem;">
+                            <img src="../images/section5wire.svg" alt="wire" id="wire__image">
                         </div>
                         <article>
                             <h5>We will help you get started</h5>
@@ -228,6 +236,7 @@
                             </p>
                             <button class="button"><a href="">Enroll Now</a></button>
                         </article>
+                    
                         <section class="grid__button">
                             <div class="btn__2">
                                 <button class="btn btn-primary"><img src="../images/hand.svg" alt=""> Team work</button>
@@ -245,19 +254,21 @@
                                 <button class="btn btn-primary"><img src="../images/games.svg" alt="" style="margin-left: -0.2rem;"> Fun&Games</button>
                             </div>
                         </section>
+                        
                     </div>
+                    
                     
                     <div class="col-sm" id="col_2">
                         <img src="../images/section5-image.png" alt="" id="section5__image">
                     </div>
-                    <img src="../images/dotsection5.svg" alt="" style="width: 170px;height:170px;float:left;">
+                    <img src="../images/dotsection5.svg" alt=""  id="dot__img">
         
                 </div>
             </div>
-        </section><!----5th section end-->
+        </section><!----5th section end--
 
-        <section id="section_6"><!--6th section start-->
-            <div class="container" id="container6">
+        <section id="section_6"><!--6th section start--
+            <div class="container-fluid" id="container6">
                 <div class="row" id="row_6">
                     <div class="col-sm" id="col_1">
                         <article>
@@ -277,9 +288,9 @@
                     </div>
                 </div>
             </div>
-        </section><!----6th section end-->
+        </section><!----6th section end--
 
-        <section id="section_7"><!---7th section start-->
+        <section id="section_7"><!---7th section start--
             <div class="container" id="container7">
                 <div class="row" id="row_7">
                     <div class="col-sm" id="col_1">
@@ -402,9 +413,9 @@
                 </div><hr style="margin-bottom: 6rem;">
         
             </div>
-        </section><!----7th section end-->
+        </section><!----7th section end--
 
-        <section id="section_8"><!--8th section start-->
+        <section id="section_8"><!--8th section start--
             <div class="container" id="container8">
                 <div class="row" id="row_1">
                     <div class="col-sm" id="col_1">
@@ -427,9 +438,9 @@
                     </div>
                 </div>
             </div>
-        </section><!----8th section end-->
+        </section><!----8th section end--
 
-        <section id="section_9">
+        <section id="section_9"><!----------9th section start------------
             <div class="container" id="contaier_9">
                 <div class="row" id="row_9">
                     <div class="col-sm" id="col_9">
@@ -463,10 +474,10 @@
                 
             </div>
 
-        </section>
+        </section><!--------------------section 9 end-------------
 
 
-        <section id="section__10" style="height:200px">
+        <section id="section__10" style="height:200px"><!---------------section 10 start--------
             <section class="container">
                 <div class="row" style="height: 150px;">
                     <img src="../images/section7wire.svg" alt="" style="width: 150px;height:150px;padding-left:1.5rem">
@@ -485,9 +496,9 @@
                     
                 </div>
             </section>
-        </section>
+        </section><!---------------section 10 end--------
 
-        <section id="section_11">
+        <section id="section_11"><!---------------section 11 start--------
             <div class="container" id="container_11">
                 <section class="row">
                     <p id="program">There are 2 broad paths in this program based on your availability.</p>
@@ -521,7 +532,7 @@
                                 <li class="links">CV Review</li>
                                 
                             </div>
-                            <img src="../images/hour.png" alt="">
+                            <img src="../images/hour.png" alt="" style="width: 50px;height:50px">
                         </div>
 
                     </div>
@@ -539,25 +550,28 @@
                                 PHP,</p>
                                 Javascript</p>
                                 <li>Design:</li>
+                                Figma <br><br>
+
                                 <b>Phases:</b>
-                                <li>Training phase</li>
+                                <li>Training phase</li><br>
                                 <b>Post Program:</b>
                                 <li>Certificate of sttendance</li>
                                 <li>Zuri Internship</li>
                             </div>
                             <img src="../images/time.png" alt="" class="time__2">
-                            <img src="../images/circle.png" alt=""  class="circle__img">
+                            
                         </div>
-
+                        <img src="../images/circle.png" alt=""  class="circle__img">
+                        <img src="../images/move.svg" alt="move-img" class="move__img">
                     </div>
 
                 </section>
 
             </div>
 
-        </section>
+        </section><!---------------section 11 end--------
         <section>
-            <section class="container" id="divider">
+            <section class="container" id="divider"><!---------------section  start--------
                 <div class="row">
                     <div class="col-sm">
                         <img src="../images/circle.png" alt="" style="width: 150px;height:150px">
@@ -566,7 +580,7 @@
             </section>
         </section>
 
-        <section id="section12">
+        <section id="section12"><!---------------section 12 start--------
             <section class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -588,7 +602,7 @@
                     </div>
                 </div>
             </section>
-        </section>
+        </section><!---------------section 12 end--------
     </main>
 
     <footer class="footer__head" id="footer_head"><!------------FOOTER START HERE------------>
@@ -660,3 +674,53 @@
     
 </body>
 </html>
+
+<!-----
+
+
+
+
+
+
+<div class="container" id="container1">
+              <div class="row" id="row_1">
+                <div class="col-sm-3" id="col_1">
+                    <img src="../images/lady1.jpg" alt="lady" id="lady_img">
+                </div>
+
+                <div class="col-sm-3" id="col_2">
+                    <article>
+                        <p style="color: #e7332b;">And now your search has ended...</p>
+                        <h1 id="h1">
+                            Gain knowledge to help you scale through the tech industry 
+                            for free.
+                        </h1>
+                        <img src="../images/line.svg" alt="" style="margin: 0.5rem 5rem;width:10rem;">
+                        <p style="margin: 2rem;"s>
+                            A basic introduction to software development and product 
+                            design aimed at complete beginners, which anyone can join
+                        </p>
+                    </article>
+                    <section>
+                        <img src="https://training.zuri.team/maleface.svg" alt="" id="maleface" style="width: 50px;">
+                        <button><a href="">Enroll Now</a></button>
+                    </section>
+                    <div class="wire1" style="display: flex;flex-direction:column;">
+                            
+                        <img src="../images/section1wire.svg" alt="" style="margin-left:5rem; height: 110px;">
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="col-sm-3" id="col_3" style="width: 25%;">
+                  <img src="../images/male1.jpg" alt="male1" id="male">
+                </div>
+              </div><hr id="hr1">
+            </div>
+
+
+
+
+
+-->
