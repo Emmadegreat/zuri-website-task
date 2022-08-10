@@ -383,10 +383,16 @@ main{
 #section_5 .linkbtn{
     margin: 2rem 0rem 0.5rem 0rem;
 }
+#section_5 .linkbtn span{
+    display: flex;
+    flex-direction: row;
+    
+}
 #section_5 .linkbtn .me{
     margin: 1.2rem;
     width: 200px;
     background-color: #e7332b;
+    color: #fff;
     padding: 0.5rem;
     border-radius: 4rem;
     border: 2px solid #fff;
@@ -395,7 +401,7 @@ main{
     width: 40px;
     background-color: #e7332b;
     position: relative;
-    left: -20px;
+    left: -10px;
 }
 /*#section_5 .row .col-xl-6 .grid__button{
     margin: 1.7rem 0rem;
