@@ -403,38 +403,7 @@ main{
     position: relative;
     left: -10px;
 }
-/*#section_5 .row .col-xl-6 .grid__button{
-    margin: 1.7rem 0rem;
-    display: flex;
-    width:100%;
-    flex-direction: row;
-    background-color: black;
-    border:1px solid green;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
-#section_5 .col-xl-6 .me{
-    background: yellow;
-    width: 100%;
-}
-#section .row .col-xl-6 .grid__button .gg{
-    margin-right: 2rem;
-    width: 210px;
-    height: 60px;
-    color: #000;
-    background-color: #000;
-    padding-right: 3rem !important;
-    border: 2px solid#fff !important;
-    border-radius: 30rem !important;
-    font-size: 1.2rem !important;
-}
-#section .row .col-xl-6 .grid__button .btn__2 img{
-    width: 69px !important;
-    height: 35px;
-    margin-left: -0.5rem;
 
-}*/
 /*@media screen and (max-width:1199px) {
     #section_5 .row{
         display: flex;
@@ -469,18 +438,18 @@ main{
 /*==============section 6===========*/
 #section_6{
     margin: auto;
-    padding: 1rem 0rem;
+    padding: 1rem 1.6rem;
 }
-#section_6 #row_6 .col-sm article h5{
+#section_6 .row .col-md-6 article h5{
     color: #e7332b;
     font-weight: 400;
     margin-bottom: -0.1rem;
     font-size: 1.5rem;
 }
-#section_6 #row_6 .col-sm article p{
+#section_6 .row .col-md-6 article p{
     font-weight: 700;
     font-family: Poppins;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
 }
 #section_6 #container6 #col_2{
     display: flex;
@@ -496,10 +465,10 @@ main{
 
 /*===================section 7============*/
 #section_7{
-    margin: 1rem 0rem;
+    margin: 1rem 1.6rem;
     font-family: sans-serif;
 }
-#section_7 #container7 .col-sm .card{
+#section_7 #container7 .col-md-6 .col-lg-4 .card{
     border-radius: 22px;
     padding: 1.4rem;
     margin: 0.4rem;
