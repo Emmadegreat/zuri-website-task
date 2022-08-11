@@ -26,8 +26,6 @@ body{
 .navbar .logo a img{
     position: absolute;
     top: 30px;
-    background: #fffdf5;
-    color: #fffdf5;
     width: 140px;
 }
 .navbar .navlinks ul{
@@ -45,7 +43,6 @@ body{
 .navbar .navlinks ul li{
     list-style-type: none;
     margin: 0rem 1.7rem;
-    background: #fffdf5;
 }
 .navbar .navlinks ul li a{
     list-style-type: none;
@@ -92,18 +89,19 @@ body{
 }
 
 main{
-    padding: 3rem 0rem;
+    padding: 2rem 2.5rem;
 }
 
 /*==============section 1=========*/
+
 .section__1{
-    padding: ;
+    margin-top: 5rem;
 }
-.section__1 .container #col_1{
+.section__1 .row #col_1{
     padding-top: 8rem;
     text-align: start;
 }
-.section__1 .container #col_1 article h1{
+.section__1 .row #col_1 article h1{
     text-align: start;
     font-size: 40px;
     color: #161617;
@@ -120,7 +118,7 @@ main{
     font-weight: 400;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.section__1 .container #col_1 img{
+.section__1 .row #col_1 img{
     width:100px;
     height:auto;
     position:relative;
@@ -128,18 +126,27 @@ main{
     top: -30px;
 }
 .section__1 .col-xl-6 img{
-    width: 420px;
+    width: 400px;
     height: 440px;
     float: right;
 }
+.section__1 #col_2 #line__1{
+    width: 130px;
+    height: auto;
+    top: 500px;
+    position: absolute;
+    right: 0px;
+    
+}
 .section__1 .col-xl-6{
     border: 1px solid green;
+    margin-top: 5rem;
 }
 .section__1 #col_1 button{
     width: 200px;
     height: 40px;
     border-bottom-right-radius: 0.8rem;
-    margin-right: 0.5rem;
+    margin-right: 0.8rem;
     font-size: 1rem;
     color: #fff;
     background: #e7332b;
@@ -150,21 +157,53 @@ main{
     border-color: #585858;
 }
 @media screen and (max-width:1199px){
-    .section__1 .container .row{
+    
+    .section__1 .col-xl-6{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0rem;
     }
-    .section__1 .row .col-xl-6{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .section__1 .row #col_1 article h1, p{
+        text-align: center !important;
     }
     .section__1 .row #col_2 img{
-        
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .section__1 #col_1 button{
+    width: 160px;
+    height: 40px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    }
+    .section__1 #col_2 #line__1{
+        width: 250px;
+        height: auto;
+        top: 800px;
+        position: absolute;
+        right: 10px;
+    
+    }
+    
+}
+@media screen and (max-width:999px){
+    .section__1 #col_2 #line__1{
+        visibility: hidden;
+    
+    }
+}
+@media screen and (max-width:500px){
+    .section__1 #col_1 button{
+        width: 110px;
+        height: 30px;
+        font-size: 0.6rem;
+        margin-right: 0.4rem;
     }
 }
