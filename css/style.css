@@ -2,78 +2,169 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
     background: #fffdf5;
+    font-family: sans-serif;
 }
-/*
+
 .navbar{
     color: #000;
-    background: #fffdf5;
+    background: #fff;
     height: 90px;
     width: 100%;
-    padding: 3rem 2rem;
+    padding: 2rem 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     z-index: 2000px;
+    border:1px solid #000;
 }
 .navbar .logo a img{
     position: absolute;
-    top: 25px;
+    top: 30px;
     background: #fffdf5;
     color: #fffdf5;
-    width: 210px;
+    width: 140px;
 }
 .navbar .navlinks ul{
     position: absolute;
     top: 10px;
-    right: 300px;
+    right: 330px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
     align-items: center;
     padding: 1rem 0.3rem;
-    background: #fffdf5;
     z-index: 700px;
 }
 .navbar .navlinks ul li{
     list-style-type: none;
-    margin: 0rem 1rem;
+    margin: 0rem 1.7rem;
     background: #fffdf5;
 }
 .navbar .navlinks ul li a{
     list-style-type: none;
     text-decoration: none;
-    color: #585757;
-    background: #fffdf5;
     text-align: start;
+    color: #000;
+    font-family: sans-serif;
     font-size: 1.2rem;
 }
-.navbar .enroll .btn-danger{
-    border-radius: 2rem;
+.navbar .navlinks .btn-danger{
+    border-bottom-right-radius: 1rem;
     height: 2.7rem;
     width: 180px;
     background-color: #e7332b;
     color: #fff;
 }
-.navbar .enroll .btn-danger a{
+.navbar .navlinks .btn-danger a{
     text-decoration: none;
     font-size: 1.2rem;
     background-color: #e7332b;
     color: #fff;
+    font-family: sans-serif;
 }
-.navbar .enroll #hand_img{
-    border-radius: 50%;
-    border: 0.6rem solid #e7332b;
-    position: absolute;
-    top: 10px;
-    width: 72px;
-    background-color: #e7332b;
-    right: 11rem;
-    z-index: 500px;
-    isolation: isolate;
+
+@media screen and (max-width:890px) {
+    .navbar .navlinks ul{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:500px) {
+    .navbar{
+        padding: 2rem 1.8rem;
+    }
+    .navbar .logo a img{
+        width: 100px;
+    }
+    .navbar .navlinks .btn-danger{
+        height: 2.4rem;
+        width: 130px;
+    }
+    .navbar .navlinks .btn-danger a{
+        font-size: 1rem;
+    }
+}
+
+main{
+    padding: 3rem 0rem;
+}
+
+/*==============section 1=========*/
+.section__1{
+    padding: ;
+}
+.section__1 .container #col_1{
+    padding-top: 8rem;
+    text-align: start;
+}
+.section__1 .container #col_1 article h1{
+    text-align: start;
+    font-size: 40px;
+    color: #161617;
+    font-weight:700;
+}
+.section__1 #col_1 article span{
+    color: #e7332b;
+}
+.section__1 #col_1 article p{
+    padding: 1rem 0rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #787878;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section__1 .container #col_1 img{
+    width:100px;
+    height:auto;
+    position:relative;
+    right: 30px;
+    top: -30px;
+}
+.section__1 .col-xl-6 img{
+    width: 420px;
+    height: 440px;
+    float: right;
+}
+.section__1 .col-xl-6{
+    border: 1px solid green;
+}
+.section__1 #col_1 button{
+    width: 200px;
+    height: 40px;
+    border-bottom-right-radius: 0.8rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #e7332b;
+}
+.section__1 #col_1 .btn-info{
+    color: #fff;
+    background: #585858;
+    border-color: #585858;
+}
+@media screen and (max-width:1199px){
+    .section__1 .container .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__1 .row .col-xl-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__1 .row #col_2 img{
+        
+        width: 300px;
+        height: 300px;
+    }
 }
