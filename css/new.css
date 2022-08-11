@@ -762,34 +762,37 @@ main{
 
 /*=================section 11============*/
 #section_11{
-    margin: 5rem 0rem;
+    padding: 5rem 1.6rem;
     background: #fffdf5;
 }
-#section_11 .col-sm{
+#section_11 .col-md-6{
     background: #fffdf5;
+    margin-bottom: 1rem;
+    padding: 0rem 2rem;
 }
 #section_11 #program{
     text-align: center;
 }
-#section_11 .container .col-sm .card{
-    border-radius: 50px !important;
+#section_11 #container_11 .col-md-6 .card{
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    border-radius: 60px !important;
     padding: 1.3rem;
-    margin: 1rem;
-    height: 45rem;
+    margin-bottom: 1.5rem;
+    height: 100%;
     color: #fff;
     background: #000;
     box-shadow: #fffdf5;
 }
-#section_11 .container .col-sm .card .card-body{
+#section_11 #container_11 .col-md-6 .card .card-body{
     box-shadow: #fffdf5;
 }
-#section_11 .container .col-sm .card .card-body .links{
+#section_11 #container_11 .col-md-6 .card .card-body .links{
     list-style-type: none;
 }
-#section_11 .container .col-sm .card .card-body li a{
+#section_11 #container_11 .col-md-6 .card .card-body li a{
     color: #fff;
 }
-#section_11 .container .card img{
+#section_11 #container_11 .card img{
     width: 140px !important;
     height: 120px !important;
     color: #fff;
@@ -797,44 +800,75 @@ main{
     right: 20px;
     top: 550px;
 }
-#section_11 .container .col-sm .circle__img{
+#section_11 #container_11 .row .circle__img{
     position: absolute;
-    right: 30px;
-    top: 7100px;
-    width: 140px !important;
+    right: -5px;
+    margin-top: 40rem;
+    width: 120px !important;
     height: 120px !important;
+    
 }
-#section_11 .container .move__img{
+#section_11 #container_11 .row .move__img{
     position: absolute;
-    right: 71.5rem !important;
-    top: 412rem;
+    left: -38px !important;
+    margin-top: 15rem;
+    width: 140px;
+    height: 140px;
 }
-/*======================section 12============*/
-#section12{
-    margin: 3rem 0rem;
+@media screen and (max-width:1199px){
+    #section_11 #container_11 .row .move__img{
+        display: none;
+    }
 }
-#section12 .container .card{
+@media screen and (max-width:899px){
+    #section_11 .col-md-6{
+        width: 100%;
+    }
+}
+
+/*=========================section 12 ==============*/
+@media screen and (min-width:800px) {
+    #section_12{
+        padding: 1rem 1.6rem;
+    }
+
+    #section_12 .row #section__12__img{
+        width: 120px;
+        height:120px;
+    }
+}
+@media screen and (max-width:799px) {
+    #section_12 .row #section__12__img{
+        display: none;
+    }
+}
+
+
+/*======================section 13============*/
+#section_13{
+    padding: 3rem 1.6rem;
+}
+#section_13 .row .card{
     background: #e7332b;
     padding: 1rem;
-    height:  30rem;
     display: flex;
     border-radius: 40px;
     justify-content: center;
     text-align: center;
 }
-#section12 .container .card article p{
+#section_13 .row .card article p{
     color: #fff;
     font-size: 1.3rem;
     margin-top: 3rem;
 }
-#section12 .container .card article h2{
+#section_13 .row .card article h2{
     color: #fff;
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 600;
     font-family: Poppins;
 }
 
-#section12 .card .card-body article .button{
+#section_13 .card .card-body article .button{
     border-radius: 2rem;
     height: 2.7rem;
     width: 150px;
@@ -842,33 +876,33 @@ main{
     background: #fff;
     border-width: 0rem;
 }
-#section12 .card .card-body  article .button a{
+#section_13 .card .card-body  article .button a{
     color: #e7332b;
     background: #fff;
     text-decoration: none;
     line-height: 1rem;
     font-size: 1.2rem;
 }
-#section12 .card img{
+#section_13 .card img{
     width: 150px;
     height: 150px;
 }
-#section12 .card .img1{
+#section_13 .card .img1{
     position: absolute;
     top: 100px;
     left: 90px;
 }
-#section12 .card .img2{
+#section_13 .card .img2{
     position: absolute;
     top: 360px;
     right: 0px;
 }
-#section12 .card .img3{
+#section_13 .card .img3{
     position: absolute;
     top: 340px;
     left: -40px;
 }
-#section12 .card .img4{
+#section_13 .card .img4{
     position: absolute;
     top: -10px;
     right: 0px;
