@@ -371,7 +371,7 @@ main{
     box-shadow: rgba(23, 18, 18, 0.16) 0px 8px 30px 0px;
 }
 .section__3 .careers button:hover, .work__app button:hover{
-    transform: translateY(10px);
+    transform: translateY(-30px);
     transition: all 1s ease;
 }
 .section__3 .row h2{
@@ -436,7 +436,7 @@ main{
 .section__4{
     padding: 0rem 2.5rem;
     padding-bottom: 4rem;
-    background-color: #fdfaf1;
+    background-color: #fff8e5;
 }
 .section__4 .row h1{
     font-weight: 700;
@@ -488,7 +488,8 @@ main{
     width: 400px;
     height: auto;
     position: absolute;
-    left: -20px;
+    left: 0px;
+    top: px !important; 
 }
 
 .section__4 #row_4{
@@ -538,22 +539,39 @@ main{
         left: -5px;
     }
 }
+@media screen and (max-width:535px){
+    .section__4 #row_4 .buttonz{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section__4 #row_4 .buttonz button{
+        width: 140px;
+        height: 30px;
+        border-bottom-right-radius: 0.8rem;
+        margin-right: 0.6rem;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+}
 
 
 /*=========================footer===================*/
 .footer__head{
-    height: 14rem;
-    background: #000;
+    height: 14.5rem;
+    background: #161617;
     width: 100%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
-.footer__head .row .col-sm-6 #footer__1{
+.footer__head .row #footer__1{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:;
     align-items: center;
     text-align: center;
 }
@@ -561,10 +579,7 @@ main{
 .footer__head  #footer_row{
     margin-bottom: -1rem !important;
 }
-.footer__head #footer__1 img{
-    padding-top: rem;
-    width: px;
-}
+
 .footer__head #footer__2{
     display: flex;
     flex-direction: row;
@@ -573,56 +588,81 @@ main{
 
 #footer__2 ul li{
     display: inline;
-    padding: 0rem 0.7rem;
+    padding: 0rem 0.3rem;
     text-align: justify;
 }
 #footer__2 ul li a{
-    font-size: 1.5rem;
-    color: #787878;
-}
-#footer_bottom_row #footer_bottom_col_2{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: 0.8rem;
-    color: #787878;
-    font-weight: 700;
-    font-family: Poppins;
+    font-size: 2rem;
+    color: #787878
 }
 #footer_bottom_row #footer_bottom_col_1{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 0.8rem;
-    color: #787878;
+    font-size: 0.9rem;
+    color: #cdc2c2;
     font-weight: 700;
     font-family: Poppins;
 }
-.footer__head .scroll-top{
-    padding: 0.5rem;
+#footer_bottom_row #footer_bottom_col_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    color: #cdc2c2;
+    font-weight: 700;
+    font-family: Poppins;
 }
 
-@media screen and (max-width:576px){
+.footer__head .scroll-top{
+    padding: 0.3rem;
+}
+
+@media screen and (min-width:601px) {
+    .footer__wrapper{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .footer__head #footer_row, #footer_bottom_row{
+        display: none;
+    }
     .footer__head{
-        height: 230px;
+        height: 350px;
         padding-left: 1.1rem;
         padding-right: 1.1rem;
         padding-top: 2rem;
         padding-bottom: 0.7rem;
     }
-    .footer__head .col-sm-6{
+    
+    .footer__head .footer__wrapper{
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
-        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #cdc2c2;
+        font-size: 1rem;
+        font-weight: 700;
     }
-    .footer__head #footer_row ul li a, #footer_bottom_row span{
-       font-size: 0.7rem;
+    .footer__head .footer__wrapper #wrap__2 ul{
+        margin-right: 1.8rem;  
+        padding-top: 1rem;  
     }
-    #footer__2 ul li{
-    padding: 0rem 0.4rem;
-}
+    .footer__head .footer__wrapper #wrap__2 ul li{
+        padding: 0.5rem;    
+        display: inline;
+        list-style: none;
+    }
+    .footer__head .footer__wrapper #wrap__2 ul li a{
+        color: #787878;
+        font-size: 2rem;
+    }
+    .footer__wrapper #hr3{
+        font-size: 2rem;
+        width:100%;
+        color: #cdc2c2;
+    }
     
 }
