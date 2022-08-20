@@ -1,43 +1,24 @@
-const tri_1 = document.querySelector('.tri_1');
-const pp =document.querySelector('#pp');
-tri_1.addEventListener('mouseover',(e)=>{
-    e.preventDefault();
-    pp.style.backgroundColor = 'red';
-})
-
-/*const dd = document.querySelector('.tri1');
-const mo = document.querySelector('.mode_1');
-
-function Toggle() {
-    mo.classList.toggle('show-mod1');
-}
-
-function windowOnClick(event) {
-    if (event.target === mo) {
-        Toggle();
-    }
-}
-
-dd.addEventListener('click', Toggle);
-window.addEventListener('click', windowOnClick);
-
-
-window.addEventListener("click", (e) => {
-    e.preventDefault();
-    if (e.target === mod_1) {
-        mo.classList.toggle('show-mod1');
-    }
-});
-
-*/
-
-
 const links = document.querySelectorAll('.link');
 links.forEach(link => {
     link.addEventListener('click', (e) => {
         links.forEach(link => link.classList.remove('active'));
         link.classList.add('active');
     });
+});
+
+/*======modal============*/
+const tri_1 = document.getElementById('tri_1');
+const mod_1 = document.getElementById('mod_1');
+function Click() {
+    mod_1.style.visibility = 'visible';
+    mod_1.style.display = 'block';
+}
+
+window.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (e.target === mod_1) {
+        mod_1.style.visibility = 'hidden';
+    }
 });
 
 const mod = document.querySelector(".mod");
