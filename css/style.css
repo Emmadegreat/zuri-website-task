@@ -80,17 +80,11 @@ body{
     .navbar .logo a img{
         width: 100px;
     }
-    .navbar .navlinks .btn-danger{
+    .navbar .navlinks .tri{
         height: 2.4rem;
-        width: 130px;
-    }
-    .navbar .navlinks .btn-danger a{
-        font-size: 1rem;
-    }
-}
-
-main{
-    
+        width: 150px;
+        max-width: 100%;
+    }    
 }
 
 /*==============section 1=========*/
@@ -207,8 +201,8 @@ main{
     
     }
 }
-@media screen and (max-width:500px){
-    .section__1 #col_1 button{
+@media screen and (max-width:600px){
+    .section__1 #col_1 .tri, .section__1 #col_1 .tri_1{
         width: 110px;
         height: 30px;
         font-size: 0.6rem;
@@ -603,7 +597,7 @@ main{
 }
 .content>#form-1{
     text-decoration: none;
-    width: 200px;
+    width: 180px;
     height: 40px;
     color: #fff;
     background: #e7332b;
@@ -613,7 +607,7 @@ main{
 }
 .content>#form-2{
     text-decoration: none;
-    width: 250px;
+    width: 200px;
     height: 40px;
     color: #fff;
     background: #e7332b;
@@ -643,7 +637,7 @@ main{
     left: 0;
     background: #d6caca;
     opacity: 1;
-    visibility: hidde;
+    visibility: hidden;
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s, transform 0.25s;
 }
@@ -669,13 +663,43 @@ main{
 }
 .content_1>#form-2{
     text-decoration: none;
-    width: 250px;
+    width: 200px;
     height: 40px;
     color: #fff;
     background: #e7332b;
     margin: auto;
     padding-top: 0.4rem;
     border-bottom-right-radius: 0.7rem;
+}
+
+@media screen and (max-width:884px){
+    .mod, .mod_1{
+        padding: 5rem 6rem;
+    }
+    .content, .content_1{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1.6rem 2rem;
+        width: 22rem;
+        max-width: 100%;
+        height: auto !important;
+    }
+
+}
+@media screen and (max-width:400px){
+    .content,.content_1{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1.6rem 2rem;
+        width: 17rem;
+        max-width: 100%;
+        height: auto !important;
+    }
+
 }
 
 /*=========================footer===================*/
@@ -691,7 +715,7 @@ main{
 .footer__head .row #footer__1{
     display: flex;
     flex-direction: row;
-    justify-content:;
+    
     align-items: center;
     text-align: center;
 }

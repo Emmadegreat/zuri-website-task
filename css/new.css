@@ -283,7 +283,7 @@ main{
 /*=================section 2=====*/
 
 #section_2{
-    padding: 0.8rem 1.6rem;
+    padding: 2rem 1.6rem 0.8rem 1.6rem;
 }
 #section_2 .col-lg-4{
     display: flex;
@@ -485,7 +485,7 @@ main{
 /*==============section 6===========*/
 #section_6{
     margin: auto;
-    padding: 1rem 1.6rem;
+    padding: 6rem 1.6rem 2rem 1.6rem;
 }
 #section_6 .row .col-md-6 article h5{
     color: #e7332b;
@@ -671,10 +671,23 @@ main{
     text-align: center;
     align-items: center;
     border: 2px solid #000;
-    height: 80px;
-    padding: 0rem 0.5rem;
+    height: 100px;
+    padding: 0.1rem 0.5rem;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 600;
+    
+}
+.questions>div{
+    text-align: start;
+    line-height: 1;
+}
+.questions small{
+    font-size: 0.7rem;
+    line-height: 1;
+}
+.questions p{
+    margin: 0rem;
+    padding-bottom: 0.3rem 0rem;
 }
 #section_9 .container .questions a{
     color: #000;
@@ -719,11 +732,16 @@ main{
         text-align: center;
         align-items: center;
         border: 2px solid #000;
-        height: 80px;
+        height: 100px;
         padding: 0rem 0.5rem;
     }#section_9 .questions p{
         font-size: 1rem;
-        text-align: left;
+        text-align: start;
+    }
+}
+@media screen and (max-width:560px){
+    #section_9 .container .questions{
+        height: 190px !important;
     }
 }
 @media screen and (max-width:493px) {
