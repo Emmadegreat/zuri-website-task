@@ -37,15 +37,36 @@ links.forEach(link => {
         link.classList.add('active');
     });
 });
+/*
+const small = document.querySelectorAll('.small');
+const show = document.querySelectorAll('.show');
+small.forEach(sm => {
+    sm.style.display = 'none';
+    sm.style.transition = "all 0.25s";
+});    
+
+show.forEach(sh => {
+    sh.addEventListener('click', (e) => {
+        if (sh.previousSibling.previousSibling.style.display === "none") {
+            sh.previousSibling.previousSibling.style.display = "block";
+        } else {
+            sh.previousSibling.previousSibling.style.display = "none";
+        }
+    })
+});*/
 
 
 const questions = document.querySelectorAll('.questions');
 questions.forEach(question => {
     const show = question.querySelector('.show');
     const small = question.querySelector('.small');
+    small.style.display = 'none';
     show.addEventListener('click', (e) => {
         e.preventDefault();
-        small.style.visibility = 'visible';
-        
+        if (show.previousSibling.previousSibling.style.display === "none") {
+            show.previousSibling.previousSibling.style.display = "block";
+        } else {
+            show.previousSibling.previousSibling.style.display = "none";
+        }
     })
 });
