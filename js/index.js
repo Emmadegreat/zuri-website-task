@@ -39,4 +39,13 @@ links.forEach(link => {
 });
 
 
-
+const questions = document.querySelectorAll('.questions');
+questions.forEach(question => {
+    const show = question.querySelector('.show');
+    const small = question.querySelector('.small');
+    show.addEventListener('click', (e) => {
+        e.preventDefault();
+        small.style.visibility = 'visible';
+        
+    })
+});

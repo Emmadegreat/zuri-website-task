@@ -684,6 +684,14 @@ main{
 .questions small{
     font-size: 0.7rem;
     line-height: 1;
+    height: 2rem;
+    visibility: hidden;
+}
+.questions small.active{
+    font-size: 0.7rem;
+    line-height: 1;
+    height: 2rem;
+    visibility: visible;
 }
 .questions p{
     margin: 0rem;
